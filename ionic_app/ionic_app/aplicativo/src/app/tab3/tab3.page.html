@@ -1,0 +1,40 @@
+<ion-header class="topo" [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      <img src="assets/img/gossip.png" width="120" alt="">
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+  <ion-content class="main">
+    <ion-list class="lista" [inset]="true">
+
+      <ion-item>
+        <ion-input label="Email"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-toggle>
+          <ion-label>Ative as notificações</ion-label>
+          <ion-note color="medium">Fique por dentro de todas as<br>fofocas</ion-note>
+        </ion-toggle>
+      </ion-item>
+    </ion-list>
+
+    <ion-list class="lista" [inset]="true">
+      <ion-item>
+        <ion-textarea label="Digite sua fofoca..." maxlength="500" labelPlacement="floating" rows="5"></ion-textarea>
+      </ion-item>
+    </ion-list>
+
+    <ion-button class="botao" fill="outline">Enviar</ion-button>
+
+    <ion-note color="medium" class="ion-margin-horizontal">
+      Fique tranquilo, tudo o que é enviado aqui é de forma totalmente anônima.</ion-note
+    >
+  </ion-content>
+
+
+
+
+

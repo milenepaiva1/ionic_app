@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+*{
+  padding: 0;
+}
+.img {
+  width: 220px;
+  margin: 150px 45px 0px 45px;
+}
+
+.main {
+  --ion-background-color: black;
+}
+
+
+
+#titulo {
+  color: #D2B854;
+  font-weight: 600;
+  font-family: "Mooli", sans-serif;
+  padding: 90px 30px 15px 30px;
+}
+
+.botao{
+  display: flex;
+--border-color:#746C3C;
+color: #E7D6C6;
+padding: 15px 30px;
+}
